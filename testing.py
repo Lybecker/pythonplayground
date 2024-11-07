@@ -1,13 +1,6 @@
-# Run below command before running this file:
-# pip install python-dotenv
+from person import Person
 
-import os
-from dotenv import load_dotenv
+p1 = Person("John", 36)
 
-load_dotenv()
-
-MY_ENV_VAR = os.getenv('MYPROJECT_APIENDPOINT')
-
-
-print(MY_ENV_VAR)
-print("Hello World")
+print(p1.name)
+print(p1.age)
