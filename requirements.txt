@@ -1,0 +1,9 @@
+# Azure and Agent Framework
+agent-framework-azure-ai
+azure-identity
+azure-ai-agents
+
+# Data and utilities
+python-dotenv
+pydantic
+numpy
