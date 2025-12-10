@@ -53,3 +53,7 @@ except:
 # user input
 username = input("Enter username:")
 print("Username is: " + username)
+
+# Context Managers
+with open(".env", "r") as file:
+    print(file.read())
